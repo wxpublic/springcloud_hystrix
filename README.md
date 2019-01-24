@@ -1,5 +1,5 @@
 # springcloud_hystrix
-springcloud熔断器Hystrix应用，类声明方式（非注解），本项目与springcloud_combineMaven仓库项目数同一个项目，不同之处在于服务降级处理一个采用注解一个采用类方式
+springcloud熔断器Hystrix应用，本项目采用类声明方式（非注解）实现服务降级，与springcloud_combineMaven仓库项目数同一个项目，不同之处在于服务降级处理方式：一个采用类实现Feign接口方式，一个采用降级主方法添加注解方式。
 
 主要内容有：
 
